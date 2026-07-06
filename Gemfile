@@ -33,6 +33,12 @@ gem "thruster", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 gem "rack-cors"
 
+# State machine for models [https://github.com/aasm/aasm]
+gem "aasm"
+
+# Declarative initializers for service objects [https://github.com/dry-rb/dry-initializer]
+gem "dry-initializer"
+
 group :development, :test do
   gem "dotenv-rails"
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem

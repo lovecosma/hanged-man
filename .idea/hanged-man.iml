@@ -34,9 +34,9 @@
     <orderEntry type="library" scope="PROVIDED" name="bundler (v2.6.9, jruby-10.0.0.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.6.2, jruby-10.0.0.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.3, jruby-10.0.0.1-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="dry-initializer (v3.2.0, jruby-10.0.0.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ed25519 (v1.4.0, jruby-10.0.0.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.13.1, jruby-10.0.0.1-p0) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.5, jruby-10.0.0.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="lint_roller (v1.1.0, jruby-10.0.0.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="logger (v1.7.0, jruby-10.0.0.1-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.5, jruby-10.0.0.1-p0) [gem]" level="application" />

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   mount ActionCable.server => "/cable"
 
   namespace :api do
+    resources :games, only: [ :create, :update ]
   end
 
   get "*path", to: "fallback#index"

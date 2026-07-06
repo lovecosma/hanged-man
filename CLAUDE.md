@@ -55,6 +55,11 @@ Rails 8 solid gems for all persistent infrastructure (no Redis):
 
 Local dev: copy values into `.env` (loaded by foreman via `bin/dev`). The `.env` file is gitignored.
 
+### Domain models
+
+- `Game` (`app/models/game.rb`) uses `aasm` for its lifecycle (`playing` → `won`/`lost` via the `state` column), not a plain enum. Add new lifecycle transitions as AASM events rather than ad-hoc state writes.
+- Business logic that isn't a simple model concern lives in service objects under `app/services/`, namespaced by domain (e.g. `Games::CreateGame`). Include the shared `Command` concern (`app/services/command.rb`) and implement `#call`; invoke via the class-level `.run(**args)` helper it provides rather than `.new(...).call`.
+
 ### Testing
 
 RSpec with FactoryBot. Tests hit a real PostgreSQL database — no DB mocking.
